@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: 'Source Sans Black';
+    src: url(/assets/fonts/SourceSans3-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Source Sans Italic';
+    src: url(/assets/fonts/SourceSans3-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Source Sans Regular';
+    src: url(/assets/fonts/SourceSans3-Regular.ttf);
+}
+
+@media (max-width:768px){
+  img{
+    width: 100%;
+    margin: auto;
+  }
+
+  
+#text-button-container{
+    padding-top: 15px;
+    text-align: center;
+    margin: auto;
+         
+  }
+
+#button-container{
+   justify-content: center;
+}
+
+}
+
+
+@media (min-width:768px){
+    img{
+      width: 80%;
+      padding-top: 50px;
+    }
+  
+
+    #text-button-container{
+        padding-top: 155px;
+      
+      }
+
+}
+
+
+#first-button{
+    width: 164px;
+    height: 40px;
+    background-color: #04146c; 
+    border-radius: 0%;
+
+}
+
+
+#second-button{
+     width: 150px;
+     height: 40px;
+     background-color: #04146c; 
+     border-radius: 0%;
+}
+
+
+h1{
+font-family: 'Source Sans Black';
+font-size: 82px;
+color: #04146c;
+  }
+
+#text-paragraph{
+  font-family: 'Source Sans Regular';
+  font-size: 21px;
+  color: #04146c;
+}
+
+span{
+    font-family: 'Source Sans Italic';
+}
+
+#img-container{
+  text-align: center;
+}
+
+
+#button-paragraph-1,#button-paragraph-2{
+    font-family: 'Source Sans Regular';
+    font-size: 18px;
+    font-variant: small-caps;
+    color: white;
+}
+
+#button-container{
+    display: flex;
+}
+

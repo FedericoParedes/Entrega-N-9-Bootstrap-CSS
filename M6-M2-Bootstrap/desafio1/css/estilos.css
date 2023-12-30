@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Mulish Bold';
+    src: url(/assets/fonts/Mulish-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish Regular';
+    src: url(/assets/fonts/Mulish-Regular.ttf);
+}
+
+
+
+
+h1{
+  font-family: 'Mulish Bold';
+  font-size: 65px;
+  color: #04146c;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#first-container,#second-container,#third-container{
+    text-align: center;
+}
+
+
+
+
+#name-paragraph-1,#name-paragraph-2,#name-paragraph-3{
+    font-family: 'Mulish Bold';
+    font-size: 40px;
+    color: #0a2ff1;
+    margin-top: -10px;
+}
+
+
+#description-paragraph-1,#description-paragraph-2,#description-paragraph-3{
+    font-family: 'Mulish Bold';
+    font-size: 24px;
+    color: #04146c;
+    margin-top: -20px;
+}
+
+#work-description-paragraph-1,#work-description-paragraph-2,#work-description-paragraph-3{
+ font-family: 'Mulish Regular';
+ font-size: 24px;
+ color: #04146c;
+}
+
+button{
+    font-size: 'Mulish Regular';
+    font-size: 24px;
+    color: #04146c;
+    border: solid 2px;
+    border-color: #0a2ff1;
+
+}
+
+
+img{
+  width: 180px;
+}
+
+
+

@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: 'Mulish Semibold';
+    src: url(/assets/fonts/Mulish-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: 'Mulish Italic';
+    src: url(/assets/fonts/Mulish-Italic.ttf);
+}
+
+
+@font-face {
+    font-family: 'Mulish Regular';
+    src: url(/assets/fonts/Mulish-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'Mulish Bold';
+    src: url(/assets/fonts/Mulish-Bold.ttf);
+}
+
+
+@media (min-width:768px){
+    #form-container{
+        width: 550px;
+        justify-content: center;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width:768px){
+    #form-container{
+        max-width: 500px;
+        margin-top: 50px;
+    }
+          
+}
+
+#mail-span,#password-span{
+     font-family: 'Mulish Semibold';
+     color: #04146c;
+     font-size: 24px;
+}
+
+#mail-paragraph{
+    font-family: 'Mulish Italic';
+    font-size: 17px;
+    color: #04146c;
+}
+
+#checkbox-identifier{
+    width: 25px;
+    height: 25px;
+    
+}
+
+
+#checkbox-span{
+    font-family: 'Mulish Regular';
+    font-size: 24px;
+    color: #04146c;
+
+}
+
+#mail-input-border,#password-input-border{
+    border: solid 1px;
+    border-color: #8a9af1;
+}
+
+#button-identifier{
+    width: 150px;
+    height: 50px;
+    background-color: #5974ff;
+}
+
+#button-span{
+    font-family: 'Mulish Bold';
+    font-size: 24px;
+}
+
